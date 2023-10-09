@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+button,
+input {
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+header .logo {
+  font-weight: bold;
+  color: black;
+  font-size: large;
+}
+
+header .search-wrapper {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+header .search-wrapper input {
+  width: 80%;
+  outline: 1px solid;
+  border-radius: 5px 0px 0px 5px;
+  padding: .5em 1em;
+  font-size: 14px;
+  margin-right: .5em;
+}
+
+header .search-wrapper input::-webkit-search-cancel-button,
+header .search-wrapper input::-webkit-search-decoration,
+header .search-wrapper input::-webkit-search-results-button,
+header .search-wrapper input::-webkit-search-results-decoration {
+  appearance: none;
+  display: none;
+}
+
+header .search-wrapper input::-ms-clear,
+header .search-wrapper input::-ms-reveal {
+  appearance: none;
+  display: none;
+}
+
+header .search-wrapper button {
+  width: auto;
+  background: transparent;
+  outline: 1px solid;
+  border-radius: 0px 5px 5px 0px;
+  padding: 1em 2em;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header .add-button {
+  padding: 1em 2em;
+  font-size: 14px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.title-wrapper,
+.container,
+footer {
+  width: 100%;
+  height: auto;
+}
+
+section h2,
+footer p {
+  display: block;
+  text-align: center;
+  padding: 1em 0;
+}
+
+section h2 {
+  padding: 2em 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2em 0;
+}
+
+.container .devs-wrapper {
+  padding: 2em 1.5em;
+  border-radius: 5px;
+  outline: 1px solid black;
+  text-align: center;
+}
+
+.container .devs-wrapper .image-wrapper {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 1em;
+  display: block;
+  border-radius: 50em;
+  outline: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container .devs-wrapper p {
+  display: block;
+  padding: .5em 0;
+  text-align: center;
+  font-weight: bold;
+}
+.container .devs-wrapper button {
+  padding: 1em 2em;
+  border-radius: 5px;
+  outline: 1px solid black;
+  margin: 2em auto 0;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
