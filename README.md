@@ -1,9 +1,7 @@
-# React + Vite
+# Search Devs
+    Is a simple website app where you can search for a beginner or aspiring web developer.
+    You can make friends, connect with them, work with them, build projects together, study together and so much more.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# devs-frontend
+# Status
+- Still under development
+- Ongoing
