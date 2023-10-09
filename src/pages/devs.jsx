@@ -1,4 +1,4 @@
-import Search from "../components/search"
+import Header from "../components/Header"
 import Devs from "../components/devs"
 import Title from "../components/title"
 import Footer from "../components/footer"
@@ -7,11 +7,7 @@ const Home = () => {
 
     return (
         <>
-            <header>
-                <a href="#" className="logo">SEARCH DEVS</a>
-                <Search/>
-                <button type="button" className="add-button">New Dev</button>
-            </header>
+            <Header />
 
             <section className="title-wrapper">
                 <Title />
